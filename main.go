@@ -7,6 +7,9 @@ import (
 )
 
 func main() {
+	var cool int32 = 1 - 1
+	var x int32 = 1 / cool
+	log.Println(x)
 	for {
 		var err *bool = null()
 		if err != nil {
